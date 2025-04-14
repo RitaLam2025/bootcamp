@@ -1,6 +1,6 @@
 import com.azul.crs.client.sysinfo.SystemInfoProvider;
 
-public class DemoDataType {
+public class DemoDatatype {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
 
@@ -13,7 +13,7 @@ public class DemoDataType {
         System.out.println(x);
         System.out.println(y);
         System.out.println();
-        //sysot --> short cut for above
+        //sysout --> short cut for above
         System.out.println(y);
         System.out.println();
         int a = 4;
