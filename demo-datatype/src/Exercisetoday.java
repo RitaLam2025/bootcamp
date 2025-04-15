@@ -7,8 +7,15 @@ public class Exercisetoday {
         int z = 45;
         int y = 45000;
         System.out.println("z");
-        int x3 = 9
+        int x3 = 9;
         System.out.println("z");
+
+        i1 = 2_147_483_647;
+        i1 = i1 + 1;
+        System.out.println(i1);
+
+        
+
 
         
 
