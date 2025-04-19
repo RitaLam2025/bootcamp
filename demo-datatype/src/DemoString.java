@@ -38,12 +38,12 @@ public class DemoString {
         String name = "Joey"; //o
         //Joey -->e (靠右)
         //Vincent -->c
-        
+        System.out.println(name.charAt(name.length() /2));
 
 
 
 
-        );
+    
 
     }
     
