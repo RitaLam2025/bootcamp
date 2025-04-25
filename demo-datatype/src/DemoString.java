@@ -10,17 +10,17 @@ public class DemoString {
         s3 = "Vincent";
         System.out.println(s3); // Vincent
 
-        //Function 1: equals ()
+        //!! Function 1: equals ()
         //String can't use "==" to check it is equal
         System.out.println(s3.equals("Vincent")); //true
         System.out.println(s3.equals("vincent")); // false , as case sensitive
         // this is ask equal or not, as need to add sth in
 
-        //Function 2; length ()
+        //!1 Function 2; length ()
         System.out.println(s3.length()); //7
         // this is the open question about length, so leave it blank.
 
-        //Function 3; charAt()
+        //!! Function 3; charAt()
         // !! index always starts with 0
         // !! index range 0-6, length = 7
         System.out.println(s3.charAt(2)); //"n" , char at position 3

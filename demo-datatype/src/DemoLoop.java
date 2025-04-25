@@ -147,10 +147,21 @@ public class DemoLoop {
     for (int i = 0; i < ss2.length(); i++) { // for loop - repeat to count, calculate the length
       if (ss2.charAt(i) != 'a') {
         continue; // if != ( not equal) to a, the below can skip, skip the rest of code line, n
-                  // goes to next iterination
+                  // goes to next iterination , go up to the upper
+
         // every wed n is holiday, i dont go running
       }
       System.out.println(i);
+    }
+
+    for (int i = 0; i < 3; ++) {
+
+      for ()
+
+
+
+
+
     }
 
   }

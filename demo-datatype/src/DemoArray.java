@@ -40,7 +40,7 @@ public class DemoArray {
     System.out.println(arr1[1]);
     System.out.println(arr1[2]);
     System.out.println(arr1[3]);
-    System.out.println(arr1[4]);
+    
 
 
 
