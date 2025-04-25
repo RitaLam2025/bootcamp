@@ -95,19 +95,19 @@ public class DemoOperator {
 
     // +1 and -1 
     int t = 0;
-    t++;
-    ++t;
-    t +=1;
+    t++; //1
+    ++t; // 2
+    t +=1; 
     t = t + 1;
     // "= t +" --> "+="
     System.out.println(t); //4
     //t++ = 1
 
     int w = 0;
-    w--;
-    --w;
-    w = w - 1;
-    w -= 1;
+    w--; // -1
+    --w; // -2
+    w = w - 1; // -3
+    w -= 1; // -4
     System.out.println(w); //-4
     //w-- =-1
 
@@ -143,6 +143,17 @@ public class DemoOperator {
     boolean isFemale = gender !='M'; // != unequal M
     System.out.println(isFemale); //false
     // always looks at right hand side first
+
+    int i = 9;
+    boolean isLargenumber = i >= 10;
+    System.out.println(isLargenumber);
+
+    int j = 9;
+    boolean isSmallnumber = j <= 9;
+    System.out.println(isSmallnumber);
+
+
+
 
     }
     

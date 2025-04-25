@@ -98,7 +98,62 @@ public class DemoIf {
             System.out.println("yes");
         } else {
             System.out.println("no");
+
+            //switch 
+            char grade = 'B';
+            if (grade == 'A') {
+                System.out.println("Grade is A");
+            } else if (grade == 'B') {
+                System.out.println("Grade is B"); //print
+            } else if (grade == 'C') {
+                System.out.println("Grade is C");
+            } else {
+                System.out.println("Fail");
+            }
+
+            //Alternative 
+            //! 1, You should use "break" for all cases in switch statement, every scenario will use if, else if
+            //! must have break as prevent landfill 
+            //! 2, switch CANNOT check 
+
+            switch (grade) {
+                case 'A':
+                System.out.println("Grade is A");
+                break;
+                case 'B':
+                System.out.println("Grade is B");
+                break; 
+                case 'C':
+                // need to write, no always use break 
+
+
+                score = 85;
+                if (score >= 90) {
+                    grade = 'A';
+                } else if (score >= 80 && score < 90) {
+                    grade = 'B';
+                } else if (score >= 70 && score )
+                need to write 
+
+            }
+
+        
+
+
+
+
+
+
+
+
             
         }
+
     }
+
+
+
+
+    
+
 
