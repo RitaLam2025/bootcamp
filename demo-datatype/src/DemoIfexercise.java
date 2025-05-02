@@ -163,6 +163,7 @@ public class DemoIfexercise {
     } else {
       grade = 'F';
     }
+    // you cant use switch to handle above scenario to calculate the range of value.
 
 
 
