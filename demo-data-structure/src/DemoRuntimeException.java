@@ -1,6 +1,6 @@
 public class DemoRuntimeException {
   public static void main(String[] args) {
-    //NullPointerException (NPE)
+    //!! 1, NullPointerException (NPE)
     String userInput = null;
     if (userInput !=null) { // avoidable program issue
       getStringLength(userInput); 
@@ -42,6 +42,18 @@ public class DemoRuntimeException {
         staff.getAge();
       }
 
+      List<Staff> staffs = new ArrayList<>(Arrays.asList(new Staff(13), new Staff(19)));
+      try {
+        searchStaffByAge(staffs,18);// checked exception, 
+      } catch (StaffNotFoundException ex) {
+        System.out.println("Staff is too old.");
+      } catch (StaffTooOldException ex && NotFoundException) {
+
+      }
+      finally {
+        System.out.println("This is the finally code block");
+      }
+
       public static class Staff {
         private int age;
 
@@ -54,7 +66,16 @@ public class DemoRuntimeException {
         }
       }
 
+      //! You have two ways to handle "checked" exception
+      // 1. try + catch
+      // 2. Method Signature --> throws
+
       public static Staff searchStaffByAge(List<Staff> staffs, int age) {
+        throws NotFoundException {
+          boolean isTooOld = false;
+          Staff target = null;
+
+        }
         for (Staff staff ; staffs) {
           if (staff.getAge() == age)
           return staff;
@@ -79,4 +100,12 @@ public class DemoRuntimeException {
     throw new IllegalArgumentException("Are you fluke?");// 遺鹽 // !! important
     return s. length();
   }
+  // ! Javadoc
+  /** 
+   * @param staff
+   * @return
+   * @throws
+   * 
+   * 
+   * 
 }

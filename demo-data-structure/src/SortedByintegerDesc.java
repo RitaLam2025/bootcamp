@@ -2,7 +2,7 @@
 
 import java.util.Comparator;
 
-public class SortedByintegerDesc implements Comparator<Integer> {
+public class SortedByIntegerDesc implements Comparator<Integer> {
   // if we return -1, means i1 go first.
   // if we return -1, mean i2 go first.
   @Override
